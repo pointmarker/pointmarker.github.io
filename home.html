@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="day">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Philosopher's Hub</title>
+</head>
+<body>
+    <header>
+        <div id="h1">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            
+        </div>
+        <div id="h2">
+            <div id="h21"></div>
+        </div>
+    </header>
+    <main>
+        <div id="a"><!--main screen-->
+            <div id="a1"><!--first big screen-->
+                <div id="a11"><!--input sction container-->
+                    <div id="a111"><!--input container-->
+                        <input id="a1111" type="text" placeholder="best philosophers are here">
+                    </div>
+                </div>
+                <div id="a12"><!--philosophs container-->                
+                </div>
+            </div>
+            <div id="a2"><!--ikinci büyük ekran-->
+                <div id="a21"><!--up container-->
+                    <div id="a211"><!--details container-->
+                        <div id="a2111"><!--details screen-->
+                           <div id="clear-a2111-btn" style="position: absolute;"></div>
+                           <!--will implement having randomize quotes from radnom philosophers with their pictures -->
+                        </div>
+                    </div>
+                    <div id="a212"><!--audio deck container-->
+                        <div id="a2121"><!--audio deck-->
+                            <div id="a21211"><button></button></div>
+                            <div id="a21212">
+                                <div id="a212121">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="a22"><!--music player-->
+                    <div id="a221">
+                        <div id="a2211">
+                            <p id="title"></p>
+                        </div>
+                        <div id="a2212">
+                            <div id="a22121">
+                                <div id="prev" title="Previous"><i class="fa-solid fa-backward"></i></div>
+                                <div id="play" title="Play"><i class="fa-solid fa-play"></i></div>
+                                <div id="next" title="Next"><i class="fa-solid fa-forward"></i></div>
+                                <div id="volumeInput">
+                                    <input type="range" min="0" max="100" value="100" id="volume">
+                                    <span id="volumeValue">100</span>
+                                </div>
+                            </div>
+                            <div id="a22122">
+                                <div id="currenttime"></div>
+                                <div id="playscroll">
+                                    <div id="dynamicplay"></div>
+                                </div>
+                                <div id="remainingtime"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fullscreen">
+            <div id="close-fullscreen-btn"></div>
+            <img src="https://philosophersapi.com//Images/Anaximander-Ill@2x.png" alt="">
+        </div>
+    </main>
+    <script type="module" src="/src/js/main.js"></script>
+    <script type="module" src="/src/js/api.js"></script>
+    <script type="module" src="/src/js/storage.js"></script>
+    <script type="module" src="/src/js/events.js"></script>
+    <script type="module" src="/src/js/ui.js"></script>
+    <script type="module" src="/src/js/utils.js"></script>
+</body>
+</html>

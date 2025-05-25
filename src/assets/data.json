@@ -1,0 +1,572 @@
+[
+  {
+    "name": "Adam Smith",
+    "lifeInterval": "16 June 1723 - 17 July 1790",
+    "image": "/Images/Adam-Smith-Ill.png"
+  },
+  {
+    "name": "Albert Camus",
+    "lifeInterval": "7 November 1913 - 4 January 1960",
+    "image": "/Images/Albert-Camus-Ill.png"
+  },
+  {
+    "name": "Anaximander",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Anaximander-Ill.png"
+  },
+  {
+    "name": "Angela Davis",
+    "lifeInterval": "26 January 1944 - undefined",
+    "image": "/Images/Angela-Davis-Ill.png"
+  },
+  {
+    "name": "Anna Julia Cooper",
+    "lifeInterval": "10 August 1858 - 27 February 1964",
+    "image": "/Images/Anna-Julia-Cooper-Ill.png"
+  },
+  {
+    "name": "Anne Conway",
+    "lifeInterval": "14 December 1631 - 23 February 1679",
+    "image": "/Images/Anne-Conway-Ill.png"
+  },
+  {
+    "name": "Aristotle",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Aristotle-Ill.png"
+  },
+  {
+    "name": "Arthur Schopenhauer",
+    "lifeInterval": "22 February 1788 - 21 September 1860",
+    "image": "/Images/Arthur-Schopenhauer-Ill.png"
+  },
+  {
+    "name": "Auguste Comte",
+    "lifeInterval": "19 January 1798 - 5 September 1857",
+    "image": "/Images/Auguste-Comte-Ill.png"
+  },
+  {
+    "name": "Augustine of Hippo",
+    "lifeInterval": "13 November 354 - 28 August 430",
+    "image": "/Images/Augustine-of-Hippo-Ill.png"
+  },
+  {
+    "name": "Ayn Rand",
+    "lifeInterval": "2 February 1905 - 6 March 1982",
+    "image": "/Images/Ayn-Rand-Ill.png"
+  },
+  {
+    "name": "Baruch Spinoza",
+    "lifeInterval": "24 November 1632 - 21 February 1677",
+    "image": "/Images/Baruch-Spinoza-Ill.png"
+  },
+  {
+    "name": "bell hooks",
+    "lifeInterval": "25 September 1952 - undefined",
+    "image": "/Images/bell-hooks-Ill.png"
+  },
+  {
+    "name": "Bertrand Russell",
+    "lifeInterval": "18 May 1872 - 2 February 1970",
+    "image": "/Images/Bertrand-Russell-Ill.png"
+  },
+  {
+    "name": "Betty Friedan",
+    "lifeInterval": "4 February 1921 - 4 February 2006",
+    "image": "/Images/Betty-Friedan-Ill.png"
+  },
+  {
+    "name": "Carl Jung",
+    "lifeInterval": "26 July 1875 - 6 June 1961",
+    "image": "/Images/Carl-Jung-Ill.png"
+  },
+  {
+    "name": "Cicero",
+    "lifeInterval": "undefined - 7 December 43",
+    "image": "/Images/Cicero-Ill.png"
+  },
+  {
+    "name": "Damaris Cudworth Masham",
+    "lifeInterval": "18 January 1659 - 20 April 1708",
+    "image": "/Images/Damaris-Cudworth-Masham-Ill.png"
+  },
+  {
+    "name": "Dante Alighieri",
+    "lifeInterval": "undefined - 13 September 1321",
+    "image": "/Images/Dante-Alighieri-Ill.png"
+  },
+  {
+    "name": "David Hume",
+    "lifeInterval": "7 May 1711 - 25 August 1776",
+    "image": "/Images/David-Hume-Ill.png"
+  },
+  {
+    "name": "Denis Diderot",
+    "lifeInterval": "5 October 1713 - 31 July 1784",
+    "image": "/Images/Denis-Diderot-Ill.png"
+  },
+  {
+    "name": "Diogenes",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Diogenes-Ill.png"
+  },
+  {
+    "name": "Edmund Burke",
+    "lifeInterval": "12 January 1729 - 9 July 1797",
+    "image": "/Images/Edmund-Burke-Ill.png"
+  },
+  {
+    "name": "Edmund Husserl",
+    "lifeInterval": "8 April 1859 - 27 April 1938",
+    "image": "/Images/Edmund-Husserl-Ill.png"
+  },
+  {
+    "name": "Edward Said",
+    "lifeInterval": "1 November 1935 - 24 September 2003",
+    "image": "/Images/Edward-Said-Ill.png"
+  },
+  {
+    "name": "Elizabeth Anscombe",
+    "lifeInterval": "18 March 1919 - 5 January 2001",
+    "image": "/Images/Elizabeth-Anscombe-Ill.png"
+  },
+  {
+    "name": "Emma Goldman",
+    "lifeInterval": "27 June 1869 - 14 May 1940",
+    "image": "/Images/Emma-Goldman-Ill.png"
+  },
+  {
+    "name": "Epicurus",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Epicurus-Ill.png"
+  },
+  {
+    "name": "Francis Bacon",
+    "lifeInterval": "22 January 1561 - 9 April 1626",
+    "image": "/Images/Francis-Bacon-Ill.png"
+  },
+  {
+    "name": "Francis Fukuyama",
+    "lifeInterval": "27 October 1952 - undefined",
+    "image": "/Images/Francis-Fukuyama-Ill.png"
+  },
+  {
+    "name": "Frantz Fanon",
+    "lifeInterval": "20 July 1925 - 6 December 1961",
+    "image": "/Images/Frantz-Fanon-Ill.png"
+  },
+  {
+    "name": "Friedrich Hayek",
+    "lifeInterval": "8 May 1899 - 23 March 1992",
+    "image": "/Images/Friedrich-Hayek-Ill.png"
+  },
+  {
+    "name": "Friedrich Nietzsche",
+    "lifeInterval": "15 October 1844 - 25 August 1900",
+    "image": "/Images/Friedrich-Nietzsche-Ill.png"
+  },
+  {
+    "name": "George Berkeley",
+    "lifeInterval": "12 March 1685 - 14 January 1753",
+    "image": "/Images/George-Berkeley-Ill.png"
+  },
+  {
+    "name": "Georges Bataille",
+    "lifeInterval": "10 September 1897 - 9 July 1962",
+    "image": "/Images/Georges-Bataille-Ill.png"
+  },
+  {
+    "name": "Georg Wilhelm Friedrich Hegel",
+    "lifeInterval": "27 August 1770 - 14 November 1831",
+    "image": "/Images/Georg-Wilhelm-Friedrich-Hegel-Ill.png"
+  },
+  {
+    "name": "Giambattista Vico",
+    "lifeInterval": "23 June 1668 - 23 January 1744",
+    "image": "/Images/Giambattista-Vico-Ill.png"
+  },
+  {
+    "name": "Gilles Deleuze",
+    "lifeInterval": "18 January 1925 - 4 November 1995",
+    "image": "/Images/Gilles-Deleuze-Ill.png"
+  },
+  {
+    "name": "Gottfried Wilhelm Leibniz",
+    "lifeInterval": "1 July 1646 - 14 November 1716",
+    "image": "/Images/Gottfried-Wilhelm-Leibniz-Ill.png"
+  },
+  {
+    "name": "Guy Debord",
+    "lifeInterval": "28 December 1931 - 30 November 1994",
+    "image": "/Images/Guy-Debord-Ill.png"
+  },
+  {
+    "name": "Hannah Arendt",
+    "lifeInterval": "14 October 1906 - 4 December 1975",
+    "image": "/Images/Hannah-Arendt-Ill.png"
+  },
+  {
+    "name": "Henri Bergson",
+    "lifeInterval": "18 October 1859 - 4 January 1941",
+    "image": "/Images/Henri-Bergson-Ill.png"
+  },
+  {
+    "name": "Henry David Thoreau",
+    "lifeInterval": "12 July 1817 - 6 May 1862",
+    "image": "/Images/Henry-David-Thoreau-Ill.png"
+  },
+  {
+    "name": "Heraclitus",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Heraclitus-Ill.png"
+  },
+  {
+    "name": "Herbert Marcuse",
+    "lifeInterval": "19 July 1898 - 29 July 1979",
+    "image": "/Images/Herbert-Marcuse-Ill.png"
+  },
+  {
+    "name": "Herbert Spencer",
+    "lifeInterval": "27 April 1820 - 8 December 1903",
+    "image": "/Images/Herbert-Spencer-Ill.png"
+  },
+  {
+    "name": "Immanuel Kant",
+    "lifeInterval": "22 April 1724 - 12 February 1804",
+    "image": "/Images/Immanuel-Kant-Ill.png"
+  },
+  {
+    "name": "Jacques Derrida",
+    "lifeInterval": "15 July 1930 - 9 October 2004",
+    "image": "/Images/Jacques-Derrida-Ill.png"
+  },
+  {
+    "name": "Jacques Lacan",
+    "lifeInterval": "13 April 1901 - 9 September 1981",
+    "image": "/Images/Jacques-Lacan-Ill.png"
+  },
+  {
+    "name": "Jane Addams",
+    "lifeInterval": "6 September 1860 - 21 May 1935",
+    "image": "/Images/Jane-Addams-Ill.png"
+  },
+  {
+    "name": "Jean Baudrillard",
+    "lifeInterval": "27 July 1929 - 6 March 2007",
+    "image": "/Images/Jean-Baudrillard-Ill.png"
+  },
+  {
+    "name": "Jean-François Lyotard",
+    "lifeInterval": "10 August 1924 - 21 April 1998",
+    "image": "/Images/Jean-Francois-Lyotard-Ill.png"
+  },
+  {
+    "name": "Jean-Jacques Rousseau",
+    "lifeInterval": "28 June 1712 - 2 July 1778",
+    "image": "/Images/Jean-Jacques-Rousseau-Ill.png"
+  },
+  {
+    "name": "Jean-Paul Sartre",
+    "lifeInterval": "21 June 1905 - 15 April 1980",
+    "image": "/Images/Jean-Paul-Sartre-Ill.png"
+  },
+  {
+    "name": "Jeremy Bentham",
+    "lifeInterval": "15 February 1748 - 6 June 1832",
+    "image": "/Images/Jeremy-Bentham-Ill.png"
+  },
+  {
+    "name": "Johann Gottlieb Fichte",
+    "lifeInterval": "19 May 1762 - 27 January 1814",
+    "image": "/Images/Johann-Gottlieb-Fichte-Ill.png"
+  },
+  {
+    "name": "John Dewey",
+    "lifeInterval": "20 October 1859 - 1 June 1952",
+    "image": "/Images/John-Dewey-Ill.png"
+  },
+  {
+    "name": "John Locke",
+    "lifeInterval": "29 August 1632 - 28 October 1704",
+    "image": "/Images/John-Locke-Ill.png"
+  },
+  {
+    "name": "John Rawls",
+    "lifeInterval": "21 February 1921 - 24 November 2002",
+    "image": "/Images/John-Rawls-Ill.png"
+  },
+  {
+    "name": "John Stuart Mill",
+    "lifeInterval": "20 May 1806 - 7 May 1873",
+    "image": "/Images/John-Stuart-Mill-Ill.png"
+  },
+  {
+    "name": "Judith Butler",
+    "lifeInterval": "24 February 1956 - undefined",
+    "image": "/Images/Judith-Butler-Ill.png"
+  },
+  {
+    "name": "Karl Marx",
+    "lifeInterval": "5 May 1818 - 14 March 1883",
+    "image": "/Images/Karl-Marx-Ill.png"
+  },
+  {
+    "name": "Karl Popper",
+    "lifeInterval": "28 July 1902 - 17 September 1994",
+    "image": "/Images/Karl-Popper-Ill.png"
+  },
+  {
+    "name": "Leo Strauss",
+    "lifeInterval": "20 September 1899 - 18 October 1973",
+    "image": "/Images/Leo-Strauss-Ill.png"
+  },
+  {
+    "name": "Louis Althusser",
+    "lifeInterval": "16 October 1918 - 22 October 1990",
+    "image": "/Images/Louis-Althusser-Ill.png"
+  },
+  {
+    "name": "Luce Irigaray",
+    "lifeInterval": "3 May 1930 - undefined",
+    "image": "/Images/Luce-Irigaray-Ill.png"
+  },
+  {
+    "name": "Ludwig Wittgenstein",
+    "lifeInterval": "26 April 1889 - 29 April 1951",
+    "image": "/Images/Ludwig-Wittgenstein-Ill.png"
+  },
+  {
+    "name": "Marcus Aurelius",
+    "lifeInterval": "26 April 121 - 17 March 180",
+    "image": "/Images/Marcus-Aurelius-Ill.png"
+  },
+  {
+    "name": "Marshall McLuhan",
+    "lifeInterval": "21 July 1911 - 31 December 1980",
+    "image": "/Images/Marshall-McLuhan-Ill.png"
+  },
+  {
+    "name": "Martin Heidegger",
+    "lifeInterval": "26 September 1889 - 26 May 1976",
+    "image": "/Images/Martin-Heidegger-Ill.png"
+  },
+  {
+    "name": "Mary Wollstonecraft",
+    "lifeInterval": "27 April 1759 - 10 September 1797",
+    "image": "/Images/Mary-Wollstonecraft-Ill.png"
+  },
+  {
+    "name": "Maurice Merleau-Ponty",
+    "lifeInterval": "14 March 1908 - 3 May 1961",
+    "image": "/Images/Maurice-Merleau-Ponty-Ill.png"
+  },
+  {
+    "name": "Max Weber",
+    "lifeInterval": "21 April 1864 - 14 June 1920",
+    "image": "/Images/Max-Weber-Ill.png"
+  },
+  {
+    "name": "Michel de Montaigne",
+    "lifeInterval": "28 February 1533 - 13 September 1592",
+    "image": "/Images/Michel-de-Montaigne-Ill.png"
+  },
+  {
+    "name": "Michel Foucault",
+    "lifeInterval": "15 October 1926 - 25 June 1984",
+    "image": "/Images/Michel-Foucault-Ill.png"
+  },
+  {
+    "name": "Montesquieu",
+    "lifeInterval": "18 January 1689 - 10 February 1755",
+    "image": "/Images/Montesquieu-Ill.png"
+  },
+  {
+    "name": "Niccolò Machiavelli",
+    "lifeInterval": "3 May 1469 - 21 June 1527",
+    "image": "/Images/Niccolo-Machiavelli-Ill.png"
+  },
+  {
+    "name": "Noam Chomsky",
+    "lifeInterval": "7 December 1928 - undefined",
+    "image": "/Images/Noam-Chomsky-Ill.png"
+  },
+  {
+    "name": "Parmenides",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Parmenides-Ill.png"
+  },
+  {
+    "name": "Peter Singer",
+    "lifeInterval": "6 July 1946 - undefined",
+    "image": "/Images/Peter-Singer-Ill.png"
+  },
+  {
+    "name": "Pierre-Joseph Proudhon",
+    "lifeInterval": "15 January 1809 - 19 January 1865",
+    "image": "/Images/Pierre-Joseph-Proudhon-Ill.png"
+  },
+  {
+    "name": "Plato",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Plato-Ill.png"
+  },
+  {
+    "name": "Plotinus",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Plotinus-Ill.png"
+  },
+  {
+    "name": "Protagoras",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Protagoras-Ill.png"
+  },
+  {
+    "name": "Pythagoras",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Pythagoras-Ill.png"
+  },
+  {
+    "name": "Ralph Waldo Emerson",
+    "lifeInterval": "25 May 1803 - 27 April 1882",
+    "image": "/Images/Ralph-Waldo-Emerson-Ill.png"
+  },
+  {
+    "name": "René Descartes",
+    "lifeInterval": "31 March 1596 - 11 February 1650",
+    "image": "/Images/Rene-Descartes-Ill.png"
+  },
+  {
+    "name": "Richard Rorty",
+    "lifeInterval": "4 October 1931 - 8 June 2007",
+    "image": "/Images/Richard-Rorty-Ill.png"
+  },
+  {
+    "name": "Robert Nozick",
+    "lifeInterval": "16 November 1938 - 23 January 2002",
+    "image": "/Images/Robert-Nozick-Ill.png"
+  },
+  {
+    "name": "Roger Bacon",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Roger-Bacon-Ill.png"
+  },
+  {
+    "name": "Roland Barthes",
+    "lifeInterval": "12 November 1915 - 26 March 1980",
+    "image": "/Images/Roland-Barthes-Ill.png"
+  },
+  {
+    "name": "Rosa Luxemburg",
+    "lifeInterval": "5 March 1871 - 15 January 1919",
+    "image": "/Images/Rosa-Luxemburg-Ill.png"
+  },
+  {
+    "name": "Seneca",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Seneca-Ill.png"
+  },
+  {
+    "name": "Sigmund Freud",
+    "lifeInterval": "6 May 1856 - 23 September 1939",
+    "image": "/Images/Sigmund-Freud-Ill.png"
+  },
+  {
+    "name": "Simone de Beauvoir",
+    "lifeInterval": "9 January 1908 - 14 April 1986",
+    "image": "/Images/Simone-de-Beauvoir-Ill.png"
+  },
+  {
+    "name": "Slavoj Žižek",
+    "lifeInterval": "21 March 1949 - undefined",
+    "image": "/Images/Slavoj-Zizek-Ill.png"
+  },
+  {
+    "name": "Socrates",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Socrates-Ill.png"
+  },
+  {
+    "name": "Sojourner Truth",
+    "lifeInterval": "undefined - 26 November 1883",
+    "image": "/Images/Sojourner-Truth-Ill.png"
+  },
+  {
+    "name": "Søren Kierkegaard",
+    "lifeInterval": "5 May 1813 - 11 November 1855",
+    "image": "/Images/Soren-Kierkegaard-Ill.png"
+  },
+  {
+    "name": "Susan Sontag",
+    "lifeInterval": "16 January 1933 - 28 December 2004",
+    "image": "/Images/Susan-Sontag-Ill.png"
+  },
+  {
+    "name": "Thales of Miletus",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Thales-of-Miletus-Ill.png"
+  },
+  {
+    "name": "Theodor W. Adorno",
+    "lifeInterval": "11 September 1903 - 6 August 1969",
+    "image": "/Images/Theodor-W.-Adorno-Ill.png"
+  },
+  {
+    "name": "Thomas Aquinas",
+    "lifeInterval": "undefined - 7 March 1274",
+    "image": "/Images/Thomas-Aquinas-Ill.png"
+  },
+  {
+    "name": "Thomas Hobbes",
+    "lifeInterval": "5 April 1588 - 4 December 1679",
+    "image": "/Images/Thomas-Hobbes-Ill.png"
+  },
+  {
+    "name": "Thomas Kuhn",
+    "lifeInterval": "18 July 1922 - 17 June 1996",
+    "image": "/Images/Thomas-Kuhn-Ill.png"
+  },
+  {
+    "name": "Thomas Nagel",
+    "lifeInterval": "4 July 1937 - undefined",
+    "image": "/Images/Thomas-Nagel-Ill.png"
+  },
+  {
+    "name": "Voltaire",
+    "lifeInterval": "21 November 1694 - 30 May 1778",
+    "image": "/Images/Voltaire-Ill.png"
+  },
+  {
+    "name": "Walter Benjamin",
+    "lifeInterval": "15 July 1892 - 26 September 1940",
+    "image": "/Images/Walter-Benjamin-Ill.png"
+  },
+  {
+    "name": "W. E. B. Du Bois",
+    "lifeInterval": "23 February 1868 - 27 August 1963",
+    "image": "/Images/W.-E.-B.-Du-Bois-Ill.png"
+  },
+  {
+    "name": "Wilhelm von Humboldt",
+    "lifeInterval": "22 June 1767 - 8 April 1835",
+    "image": "/Images/Wilhelm-von-Humboldt-Ill.png"
+  },
+  {
+    "name": "William James",
+    "lifeInterval": "11 January 1842 - 26 August 1910",
+    "image": "/Images/William-James-Ill.png"
+  },
+  {
+    "name": "William of Ockham",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/William-of-Ockham-Ill.png"
+  },
+  {
+    "name": "Xenophanes",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Xenophanes-Ill.png"
+  },
+  {
+    "name": "Zeno",
+    "lifeInterval": "undefined - undefined",
+    "image": "/Images/Zeno-Ill.png"
+  }
+]
