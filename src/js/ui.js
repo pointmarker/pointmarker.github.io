@@ -35,8 +35,10 @@ function createPhiAvatarEl(phi,a12){
     phiImg.className = "phi-img";
 
     phiDiv.setAttribute("data-id",phi.dataid);
+    phiDiv.setAttribute("title", phi.name)
     nameText.innerText = phi.name;
     phiImg.src = `https://philosophersapi.com/${phi.images.illustrations.ill250x250}`
+    phiImg.alt=phi.name
 
     phiDiv.appendChild(phiImg);
     nameDiv.appendChild(nameText);

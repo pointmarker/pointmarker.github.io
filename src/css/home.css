@@ -326,6 +326,10 @@ main::-webkit-scrollbar{
     background-color: rgba(255, 255, 255, 0.405);
     padding: 10px 15px;
     border-radius: 10px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 12px;
+  font-weight: 550;
+  font-style: normal;
 }
 #a212{
     box-sizing: border-box;
