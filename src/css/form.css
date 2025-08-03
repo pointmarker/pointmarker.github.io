@@ -60,6 +60,8 @@ input,textarea{
     min-height: 1em;
     max-height: 5em;
     transition: transform 1s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 input:focus,textarea:focus{
