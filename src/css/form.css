@@ -1,15 +1,21 @@
+body{
+    z-index: 5;
+    background:rgba(245, 245, 220, 0.541);
+}
+
 
 main{
+    z-index: 2;
     display: flex;
     align-items: center;
 }
 #form-container{
-    min-height: 70vh;
-    min-width: 70vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: visible;
+    height: 90%;
+    width:70%;
+    
 }
 
 form{
@@ -25,6 +31,7 @@ form{
     border-radius: .5em;
     padding: 8% 6%;
     box-shadow: gray 0 0 5px;
+    background:beige;
     gap:1em;
 
 }   
@@ -32,11 +39,17 @@ form{
 textarea{
     min-height: 20%;
     max-height: 30%;
+    padding-top:1%;
 }
 
 form *{
     width: 80%;
 }
+
+input{
+    padding: 0.3%;
+}
+
 
 input,textarea{
     background-color: rgba(170, 241, 218, 0.575);
@@ -46,16 +59,19 @@ input,textarea{
     border-radius: .2em;
     min-height: 1em;
     max-height: 5em;
+    transition: transform 1s ease;
 }
 
 input:focus,textarea:focus{
     outline: 0;
     border:0;
-    background-color: rgba(0, 255, 255, 0.47);
+    background-color: rgba(0, 255, 255, 0.356);
+    transform: scale(1.05);
 }
 
 button{
     width: 50%;
+    max-width: 150px;
     border:0 ;
     box-shadow: gray 0 0 5px;
     border-radius: .3em;

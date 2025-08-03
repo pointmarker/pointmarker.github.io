@@ -28,7 +28,7 @@ html{
 }
 body{
     height:90%;
-    width: 90%;
+    width: 80%;
     border-radius: .5em;
     background:beige;
     margin:0;
@@ -81,6 +81,14 @@ main{
     width: 90%;
     gap:5%;
 }
+#information-container, #table-container{
+    transition: transform 1s ease;
+}
+
+#information-container:hover, #table-container:hover{
+    transform: scale(1.05);
+}
+
 #information-container{
     border-radius: .5em;
     padding: 1%;
@@ -92,6 +100,8 @@ main{
 }
 #information-container h3, #information-container h1{
     padding:1%;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.479);
 }
 main table{
     border-radius: .5em;
@@ -100,10 +110,17 @@ main table{
 }
 main td{
     border:2px solid rgb(109, 6, 6);
+    border-radius: .2em;
+    padding: 1% 2.5%;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
 
 main th{
+    font-size: 1.1em;
     border-bottom: 4px solid rgb(126, 34, 34);
+    font-weight: 650;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer{
