@@ -87,6 +87,7 @@ main{
 
 #information-container:hover, #table-container:hover{
     transform: scale(1.05);
+    
 }
 
 #information-container{
