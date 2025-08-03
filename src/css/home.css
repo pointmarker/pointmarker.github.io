@@ -98,6 +98,8 @@ main{
     flex-direction: column;
     max-width:500px;
     text-align: center;
+    justify-content: space-evenly;
+    font-size: large;
 }
 #information-container h3, #information-container h1{
     padding:1%;
@@ -140,7 +142,10 @@ footer{
     #main-container{
         justify-content: space-evenly;
         align-items: center;
+    }
 
+    #information-container{
+        height: 80%;
     }
 
 }
