@@ -16,6 +16,7 @@
 }   
 
 html{
+    user-select: none;
     position: relative;
     margin:0;
     padding: 0;
@@ -27,8 +28,8 @@ html{
     justify-content: center;
 }
 body{
-    height:90%;
-    width: 80%;
+    height:90vh;
+    width: 80vw;
     border-radius: .5em;
     background:beige;
     margin:0;
@@ -40,7 +41,6 @@ body ::-webkit-scrollbar{
 }
 
 header{
-
     height: 15%;
     display:flex;
     justify-content: space-evenly;
@@ -72,14 +72,15 @@ main{
     width: 100%;
     height: 70%;
     display: flex;
-    overflow: scroll;
     justify-content: center;
 }
 #main-container{
     display: flex;
+    overflow-y: scroll;
     margin:2.5% 5%;
     width: 90%;
     gap:5%;
+    border-radius: .5em;
 }
 #information-container, #table-container{
     transition: transform 1s ease;
@@ -87,19 +88,18 @@ main{
 
 #information-container:hover, #table-container:hover{
     transform: scale(1.05);
-    
 }
 
 #information-container{
     border-radius: .5em;
-    padding: 1%;
-    box-shadow:rgba(128, 128, 128, 0.411) 0 0 10px;
     display: flex;
     flex-direction: column;
-    max-width:500px;
-    text-align: center;
     justify-content: space-evenly;
-    font-size: large;
+    align-items: center;
+    text-align: center;
+    max-width:500px;
+    
+    box-shadow:rgba(63, 70, 94, 0.411) 0 0 10px;
 }
 #information-container h3, #information-container h1{
     padding:1%;
@@ -110,6 +110,7 @@ main table{
     border-radius: .5em;
     padding: 5%;
     box-shadow: rgba(85, 14, 50, 0.623) 2px 0px 5px;
+    
 }
 main td{
     border:2px solid rgb(109, 6, 6);
@@ -156,11 +157,19 @@ footer{
 
     #main-container{
         flex-direction: column;
+        font-size: 12px;
         gap: 5%;
+    }
+
+    #information-container{
+        height:auto
     }
 }
 @media(max-width: 450px){
 
+    #main-container{
+        
+    }
     header{
         height: 10%;
         font-size: 8px;
