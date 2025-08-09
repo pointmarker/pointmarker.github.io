@@ -15,7 +15,6 @@ main{
     align-items: center;
     height: 100%;
     width: 50%;
-    
 }
 
 form{
@@ -75,6 +74,7 @@ button{
     box-shadow: gray 0 0 5px;
     border-radius: .3em;
     background-color: rgba(45, 45, 180, 0.596);
+    margin-top: 5%;
 }
 
 button:hover{
