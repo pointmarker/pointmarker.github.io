@@ -92,7 +92,11 @@
                 }
 
                 if(rivalsElement.length){
-                    if(entries) entries.style.borderColor = 'rgba(233,217,211,0.8)'
+                    if(entries){
+                        const projectNameLabel = document.getElementById('game-name-div').querySelector('label')
+                        projectNameLabel.style.color = 'rgb(33,31,31)'
+                        entries.style.borderColor = 'rgba(233,217,211,0.8)'
+                    } 
                     for(const rivalEl of rivalsElement){
                         const forms = rivalEl.querySelectorAll('form')
                         for(const form of forms){
@@ -111,6 +115,8 @@
                     }
                 }
                 else if(entries){
+                    const projectNameLabel = document.getElementById('game-name-div').querySelector('label')
+                    projectNameLabel.style.color = 'rgb(33,31,31)'
                     entries.style.borderColor = 'rgba(233,217,211,0.8)'
                     console.log(entries.style.borderColor)
                     const forms = entries.querySelectorAll('form')
@@ -160,9 +166,12 @@
                 }
                 if(projects){
                     const delBtns = document.getElementsByClassName('project-delete-button')
-                    const modes = document.getElementsByClassName('project-mode')
+                    // const modes = document.getElementsByClassName('project-mode')
                     const names = document.getElementsByClassName('project-name')
                     const dates = document.getElementsByClassName('project-date')
+                    const warning = document.getElementById('projects-warning-text')
+
+                    warning.style.color = 'rgb(33,31,31)'
 
                     for(const btn of delBtns){
                         const svg = btn.querySelector('svg')
@@ -174,7 +183,7 @@
                         path.style.stroke = 'rgba(33,31,31,0.4)'
                     }
 
-                    for(const mode of modes){mode.style.color = 'rgba(33,31,31,0.8)'}
+                    // for(const mode of modes){mode.style.color = 'rgba(33,31,31,0.8)'}
                     for(const name of names){name.style.color = 'rgb(33,31,31)'}
                     for(const date of dates){date.style.color = 'rgba(33,31,31,0.4)'}
                 }
@@ -194,6 +203,8 @@
 
                 if(rivalsElement.length){
                     if(entries){
+                        const projectNameLabel = document.getElementById('game-name-div').querySelector('label')
+                        projectNameLabel.style.color = 'rgb(233,217,211)'
                         entries.style.borderColor = 'rgba(233,217,211,0.2)'
                     }
                     for(const rivalEl of rivalsElement){
@@ -215,6 +226,8 @@
                     }
                 }
                 else if(entries){
+                    const projectNameLabel = document.getElementById('game-name-div').querySelector('label')
+                    projectNameLabel.style.color = 'rgb(233,217,211)'
                     entries.style.borderColor = 'rgba(233,217,211,0.2)'
                     console.log(entries.style.borderColor)
                     const forms = entries.querySelectorAll('form')
@@ -263,9 +276,12 @@
                 }
                 if(projects){
                     const delBtns = document.getElementsByClassName('project-delete-button')
-                    const modes = document.getElementsByClassName('project-mode')
+                    // const modes = document.getElementsByClassName('project-mode')
                     const names = document.getElementsByClassName('project-name')
-                    const dates = document.getElementsByClassName('project-date')
+                    const dates = document.getElementsByClassName('project-date')  
+                    const warning = document.getElementById('projects-warning-text')
+
+                    warning.style.color = 'rgb(233,217,211)'   
 
                     for(const btn of delBtns){
                         const svg = btn.querySelector('svg')
@@ -277,7 +293,7 @@
                         path.style.stroke = 'rgba(237, 228, 228,0.4)';
                     }
 
-                    for(const mode of modes){mode.style.color = 'rgba(237, 228, 228,0.8)'}
+                    // for(const mode of modes){mode.style.color = 'rgba(237, 228, 228,0.8)'}
                     for(const name of names){name.style.color = 'rgb(237, 228, 228)'}
                     for(const date of dates){date.style.color = 'rgba(237, 228, 228,0.4)'}
                     
@@ -373,6 +389,7 @@
                 }
             })
 
+
             const checked = document.getElementById('switch').checked
 
             Object.entries(projects).forEach(([key,value]) => {
@@ -391,18 +408,18 @@
                 projectNamePEl.style.color = checked ? "rgb(33,31,31)" : "rgb(233,217,222)"
                 
 
-                const projectModePEl = document.createElement('p')
-                projectModePEl.className = "project-mode"
-                projectModePEl.style.color = checked ? "rgba(33,31,31,0.8)" : "rgba(233,217,222,0.8)"
+                // const projectModePEl = document.createElement('p')
+                // projectModePEl.className = "project-mode"
+                // projectModePEl.style.color = checked ? "rgba(33,31,31,0.8)" : "rgba(233,217,222,0.8)"
                 
-                projectModePEl.textContent = mode === "Random" ? "R" : "M"
+                // projectModePEl.textContent = mode === "Random" ? "R" : "M"
 
                 const projectDatePEl = document.createElement('p')
                 projectDatePEl.className = "project-date"
                 projectDatePEl.style.color = checked ? "rgba(33,31,31,0.4)" : "rgba(233,217,222,0.4)"
                 projectDatePEl.textContent = key
 
-                projectInfosDiv.appendChild(projectModePEl)
+                // projectInfosDiv.appendChild(projectModePEl)
                 projectInfosDiv.appendChild(projectNamePEl)
                 projectInfosDiv.appendChild(projectDatePEl)
                 
@@ -467,6 +484,15 @@
             })
 
             screen.appendChild(projectsDiv)
+
+            
+            if(!Object.keys(projects).length){
+                const warningPEl = document.createElement('p')
+                warningPEl.textContent = "There is no saved project."
+                warningPEl.style.color = checked ? 'rb(33,31,31)' : 'rgb(233,217,217)'
+                warningPEl.id = "projects-warning-text"
+                projectsDiv.appendChild(warningPEl)
+            }
             
         }
         function createGame(createdObj,objKey){
@@ -507,15 +533,14 @@
             gameNameDiv.appendChild(gameNameLabel)
             gameNameDiv.appendChild(gameNameInput)
 
-            const gameModeDiv = document.createElement('div')
-            gameModeDiv.id = "game-mode-div"
-            gameModeDiv.style.color = checked ? 'rgb(33,31,31)' : 'rgb(233, 217, 211)'
-            const gameModeNameEl = document.createElement('p')
+            // const gameModeDiv = document.createElement('div')
+            // gameModeDiv.id = "game-mode-div"
+            // gameModeDiv.style.color = checked ? 'rgb(33,31,31)' : 'rgb(233, 217, 211)'
+            // const gameModeNameEl = document.createElement('p')
 
-            gameModeDiv.appendChild(gameModeNameEl)
+            // gameModeDiv.appendChild(gameModeNameEl)
 
             gameInfosDiv.appendChild(gameNameDiv)
-            gameInfosDiv.appendChild(gameModeDiv)
 
             gameScreen.appendChild(gameInfosDiv)
             gameScreen.appendChild(entries)
@@ -671,12 +696,14 @@
             game.appendChild(gameScreen)
 
             function randomMenu(obj,objKey){
+                const randomBtn = document.getElementsByClassName('game-type')
+                randomBtn[0].style.outline = 'none'
+                randomBtn[1].style.outline = "2px solid rgb(233,217,211)"
                 const manuelDiv = document.getElementById('manuel-div')
                 manuelDiv && manuelDiv.remove()
                 const random = document.getElementById('random-div')
                 if(random) return;
 
-                gameModeNameEl.textContent = "Random"
                 entries.style.display = "flex"
                 entries.innerHTML = ""
 
@@ -823,11 +850,13 @@
             }
 
             function manuelMenu(obj,objKey){
+                const randomBtn = document.getElementsByClassName('game-type')
+                randomBtn[1].style.outline = 'none'
+                randomBtn[0].style.outline = "2px solid rgb(233,217,211)"
                 const randomDiv = document.getElementById('random-div')
                 randomDiv && randomDiv.remove()
                 const manuel = document.getElementById('manuel-div')
                 if(manuel) return
-                gameModeNameEl.textContent = "Manuel"
                     entries.style.display = "flex"
                     entries.innerHTML = ""
 
@@ -849,7 +878,11 @@
                             const rivalsDiv = document.createElement('div')
                             rivalsDiv.className = "rivals-element"
 
+                            const bracet = document.createElement('div')
+                            bracet.className = 'bracet'
+
                             rivalsDiv.appendChild(createInputForm())
+                            rivalsDiv.appendChild(bracet)
                             rivalsDiv.appendChild(createInputForm())
 
                             return rivalsDiv
@@ -1485,7 +1518,6 @@
             return tx.complete;
         }
 
-
         function deleteAreYouSure(objKey){
             const modal = document.createElement('div')
             modal.id = "exit-modal"
@@ -1522,7 +1554,6 @@
             screen.appendChild(modal)
         }
                     
-
     </script>
 </body>
 </html>
