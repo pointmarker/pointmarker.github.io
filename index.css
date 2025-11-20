@@ -469,8 +469,8 @@ html{
     background-color: rgb(248, 57, 57);
     border-radius: 15px;
     display: flex;
-    position: absolute;
-    top:40%;
+    position: fixed;
+    top:40vh;
     left:40%;
     flex-direction: column;
     justify-content: center;
