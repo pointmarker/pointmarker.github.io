@@ -790,8 +790,8 @@
                     let canPass = true
                     const allInputForms = entries.querySelectorAll('.input-form')
 
-                    if(Object.keys(allInputForms).length % 2 !== 0){
-                        alert('make inputs even')
+                    if(Object.keys(allInputForms).length % 8 !== 0){
+                        alert(`make lines divisble by 8, ${Object.keys(allInputForms).length}`)
                         return
                     }
 
@@ -999,6 +999,11 @@
                         let canPass = true
                         const allRivals = entries.querySelectorAll('.rivals-element')
                         
+                        if(allRivals.length % 4 !== 0){
+                            alert(`make rivals divisible by 4, ${allRivals.length}`)
+                            return
+                        }
+
                         for(let i = 0; i < allRivals.length; i++){
                             const rivalEl = allRivals[i]
                             const allForms = rivalEl.querySelectorAll('.input-form')
@@ -1229,7 +1234,10 @@
 
             let winner;
             while (!winner) {
+                let playObj = {}
+                console.log({playObj})
                 for(const [i,obj] of Object.entries(newObj)){
+                    console.log({i,obj})
                     playDiv.innerHTML = ""
                     await new Promise(resolve => {
                         Object.entries(obj).forEach(([key,value]) => {
@@ -1255,8 +1263,9 @@
                             playDiv.appendChild(selection)
 
                             selection.addEventListener('click', (e) => {
-                                newObj[i] = obj[key]
-                                resolve(obj[key])
+                                playObj[i] = obj[key]
+                                console.log({clickedPlay: playObj})
+                                resolve()
                             },{once:true})
                         })
                     })
@@ -1265,12 +1274,15 @@
                     const isWinner = Object.keys(newObj).length === 1;
 
                     if(isLastPair && isWinner){
-                        winner = newObj[0]
+                        console.log({playObj})
+                        console.log({newObj})
+                        winner = playObj[0]
                         winnerPage(winner)
                         return
                     }
                     if(isLastPair){
-                        newObj = makeRivals(newObj)
+                        newObj = makeRivals(playObj)
+                        console.log({lastPairNewObj: newObj})
                     }
                     
                 }
@@ -1282,30 +1294,44 @@
 
                 let keys = Object.keys(obj)
                 const objLength = keys.length
-                
-                for(let i = 0; i < (objLength / 2); i++){ 
-                    let obj1;
+                keys = Object.keys(keys)
 
-                    const index1 = randomIndex(objLength,i)
+
+                for(let i = 0; i < Math.ceil(objLength / 2); i++){ 
+                    const index1 = randomIndex(keys)
+                    keys = keys.filter(key => Number(key) !== index1)
                     let isPass = false
                     let index2;
                     while(!isPass){
-                        index2 = randomIndex(objLength,i)
-                        if(index2 !== index1) isPass = true
+                        console.log({i, objLength})
+                        // if(i === Math.ceil(objLength / 2) - 1 && i % 2 !== 0){
+                        //     console.log('passe girdi')
+                        //     isPass=true
+                        // } 
+                        index2 = randomIndex(keys)
+                        
+                        if(index2 !== index1){
+                            keys = keys.filter(key => Number(key) !== index1 && Number(key) !== index2)
+                            isPass = true
+                        } 
+                        
                     }
-                    
-                    keys = keys.filter(key => !(key === index1 || key === index2))
 
+                    
                     newObj[i] = {
                         [i*2] : obj[index1],
                         [(i*2) + 1] : obj[index2]
                     }
+                    
                 }
-
+                
+                
                 return newObj
 
-                function randomIndex(objLength,i){
-                    return Math.floor(Math.random() * (objLength - i))
+                function randomIndex(keys){
+                    let index = Math.floor(Math.random() * (keys.length))
+                    index = Number(keys[index])
+                    return index
                 }
             }
         
