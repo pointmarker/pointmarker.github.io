@@ -154,14 +154,12 @@
                     }
                 }
 
-                console.log({gameInfos})
                 if(gameInfos){
                     const pEl = gameInfos.querySelector('p')
                     const labelEl = gameInfos.querySelector('label')
 
-
-                    pEl.style.color = 'rgb(33,31,31)'
-                    labelEl.style.color = 'rgb(33,31,31)'
+                    if(pEl) pEl.style.color = 'rgb(33,31,31)'
+                    if(labelEl) labelEl.style.color = 'rgb(33,31,31)'
 
                 }
                 if(projects){
@@ -696,9 +694,13 @@
             game.appendChild(gameScreen)
 
             function randomMenu(obj,objKey){
+
                 const randomBtn = document.getElementsByClassName('game-type')
-                randomBtn[0].style.outline = 'none'
-                randomBtn[1].style.outline = "2px solid rgb(233,217,211)"
+                if(randomBtn.length){
+                    randomBtn[0].style.outline = 'none'
+                    randomBtn[1].style.outline = "2px solid rgb(233,217,211)"
+                }
+                
                 const manuelDiv = document.getElementById('manuel-div')
                 manuelDiv && manuelDiv.remove()
                 const random = document.getElementById('random-div')
@@ -851,8 +853,11 @@
 
             function manuelMenu(obj,objKey){
                 const randomBtn = document.getElementsByClassName('game-type')
-                randomBtn[1].style.outline = 'none'
-                randomBtn[0].style.outline = "2px solid rgb(233,217,211)"
+                if(randomBtn.length){
+                    randomBtn[1].style.outline = 'none'
+                    randomBtn[0].style.outline = "2px solid rgb(233,217,211)"
+                }
+                
                 const randomDiv = document.getElementById('random-div')
                 randomDiv && randomDiv.remove()
                 const manuel = document.getElementById('manuel-div')
