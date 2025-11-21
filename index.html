@@ -834,12 +834,23 @@
                         const textarea = form.querySelector('textarea')
                         const imageEl = form.querySelector('img')
 
-                        if(!imageEl.src && textarea.value.trim() === "") return
-
-                        randomObj[i] = {
-                            img: imageEl.src || "",
-                            text: textarea.value
+                        if(imageEl.src && textarea.value.trim() !== ""){
+                            randomObj[i] = {
+                                img: imageEl.src || "",
+                                text: textarea.value
+                            }
+                        }else if(imageEl.src && textarea.value.trim() === ""){
+                            randomObj[i] = {
+                                img: imageEl.src,
+                                text: ""
+                            }
+                        }else if(!imageEl.src && textarea.value.trim() !== ""){
+                            randomObj[i] = {
+                                img: "",
+                                text: textarea.value
+                            }
                         }
+                        
                     }
 
                     const newObj = {
