@@ -605,6 +605,9 @@ html{
     border-radius: 15px;
     overflow: hidden;
 }
+#winner-text{
+    font-size:16px
+}
 
 #winner-header-div{
     display: flex;
@@ -662,12 +665,18 @@ html{
         font-size: 10px;
         
     }
+    #winner-text{
+        font-size:10px
+    }
 }
 
 @media (min-width: 320px) and (max-width: 520px){
     #selection-text{
         -webkit-text-stroke: 0.5px black;
         font-size: 16px;
+    }
+    #winner-text{
+        font-size:16px
     }
 }
 
@@ -676,6 +685,9 @@ html{
         -webkit-text-stroke: 0.5px black;
         font-size: 20px;
     }
+    #winner-text{
+        font-size:20px
+    }
 }
 
 @media (min-width: 720px) and (max-width: 1040px){
@@ -683,11 +695,17 @@ html{
         -webkit-text-stroke: 1.5px black;
         font-size: 26px;
     }
+    #winner-text{
+        font-size:26px
+    }
 }
 @media (min-width: 1040px) and (max-width: 1500px){
     #selection-text{
         -webkit-text-stroke: 2px black;
         font-size: 40px;
+    }
+    #winner-text{
+        font-size:40px
     }
 }
 
@@ -697,16 +715,25 @@ html{
         -webkit-text-stroke: 2.5px black;
         font-size: 50px;
     }
+    #winner-text{
+        font-size:50px
+    }
 }
 @media (min-width: 2500px) and (max-width: 3500px){
     #selection-text{
         -webkit-text-stroke: 3.5px black;
         font-size: 80px;
     }
+    #winner-text{
+        font-size:80px
+    }
 }
 @media (min-width: 3500px) and (max-width: 6000px){
     #selection-text{
         -webkit-text-stroke: 4px black;
         font-size: 130px;
+    }
+    #winner-text{
+        font-size:130px
     }
 }
