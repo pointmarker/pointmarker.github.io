@@ -164,13 +164,14 @@
 
                 }
                 if(projects){
+                    console.log('checked projects')
                     const delBtns = document.getElementsByClassName('project-delete-button')
                     const modes = document.getElementsByClassName('project-mode')
                     const names = document.getElementsByClassName('project-name')
                     const dates = document.getElementsByClassName('project-date')
                     const warning = document.getElementById('projects-warning-text')
 
-                    warning.style.color = 'rgb(33,31,31)'
+                    if(warning) warning.style.color = 'rgb(33,31,31)'
 
                     for(const btn of delBtns){
                         const svg = btn.querySelector('svg')
@@ -274,13 +275,14 @@
 
                 }
                 if(projects){
+                    console.log('unchecked projects')
                     const delBtns = document.getElementsByClassName('project-delete-button')
                     const modes = document.getElementsByClassName('project-mode')
                     const names = document.getElementsByClassName('project-name')
                     const dates = document.getElementsByClassName('project-date')  
                     const warning = document.getElementById('projects-warning-text')
 
-                    warning.style.color = 'rgb(233,217,211)'   
+                    if(warning) warning.style.color = 'rgb(233,217,211)'   
 
                     for(const btn of delBtns){
                         const svg = btn.querySelector('svg')
