@@ -23,10 +23,8 @@
 
     h1, h2, h3, h4, h5, h6, p, span, a, div { z-index: 2; }
 
-    * { box-sizing: border-box; }
-
-    html { scroll-behavior: smooth; }
-
+    * { box-sizing: border-box; cursor: url("./logo.png") 16 16, auto; z-index: 3; }
+    html { scroll-behavior: smooth; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
     body {
       margin: 0;
       background: var(--paper);
@@ -392,6 +390,10 @@
     <section class="page services" id="services" aria-labelledby="services-title">
       <h2 class="section-label" id="services-title">Hizmetlerimiz</h2>
       <ul class="services-list">
+         <li>
+          <h3>Personel seçimi</h3>
+          <p>Pozisyon belirleme, aday bulma, değerlendirme ve işe alım süreci.</p>
+        </li>
         <li>
           <h3>Menü ve ürün gamı geliştirme</h3>
           <p>Konsept doğrultusunda menü oluşturma ve ürün seçimi.</p>
@@ -407,10 +409,6 @@
         <li>
           <h3>Fotoğraf ve görsel içerik</h3>
           <p>Yemek, menü ve mekân çekimleri.</p>
-        </li>
-        <li>
-          <h3>Personel seçimi</h3>
-          <p>Pozisyon belirleme, aday bulma, değerlendirme ve işe alım süreci.</p>
         </li>
       </ul>
     </section>
